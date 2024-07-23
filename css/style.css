@@ -166,3 +166,20 @@ header, .navbar {
   color:#65DAF9;
   transform: scale(1.1);
 }
+
+/* Dados da Empresa */
+.circle-box div{
+  padding: 0 40px;
+}
+
+.progressbar-text {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#data-area p {
+  color: #FFF;
+  text-align: center;
+  font-size: 26px;
+  margin-top: 20px;
+}
