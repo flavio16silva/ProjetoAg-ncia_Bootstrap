@@ -205,7 +205,19 @@ header, .navbar {
 
 #company-img {
   background-image: url('../img/empresa.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  /* height: 100%; */
+}
+
+#pattern-img {
+  background-image: url('../img/pattern.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   height: 100%;
 }
 
