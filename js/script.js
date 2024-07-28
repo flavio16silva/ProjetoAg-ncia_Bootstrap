@@ -139,7 +139,7 @@ let circleD = new ProgressBar.Circle(containerD, {
     }
   }
 
-  // Scroll para seções
+  // Scroll para seções do Navbar
   let navBtn = $('.nav-item')
 
   let bannerSection = $('#mainSlider')
