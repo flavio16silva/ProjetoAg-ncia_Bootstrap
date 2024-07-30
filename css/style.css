@@ -182,6 +182,7 @@ header, .navbar {
   text-align: center;
   font-size: 26px;
   margin-top: 20px;
+  font-weight: bold;
 }
 
 /* Time da Empresa */
@@ -204,7 +205,7 @@ header, .navbar {
 }  
 
 #company-img {
-  background-image: url('../img/empresa.jpg');
+  background-image: url('../img/sofa_parallax.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -213,7 +214,7 @@ header, .navbar {
 }
 
 #pattern-img {
-  background-image: url('../img/pattern.png');
+  background-image: url('../img/sofaempresa.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
