@@ -42,7 +42,7 @@ let circleB = new ProgressBar.Circle(containerB, {
 let containerC = document.getElementById("circleC")
 
 let circleC = new ProgressBar.Circle(containerC, {
-  color: '#64DAF9',
+  color: '#64DAF9', 
   strokeWidth: 8,
   duration: 1800,
   from: { color: '#AAA'},
@@ -98,7 +98,7 @@ let circleD = new ProgressBar.Circle(containerD, {
   // Parallax
   setTimeout(function() {
 
-    $('#data-area').parallax({imageSrc: 'img/cidadeparallax.png'})
+    $('#data-area').parallax({imageSrc: 'img/sofaparallax.jpg'})
     // $('#apply-area').parallax({imageSrc: 'img/pattern.png'})
 
   }, 250)
