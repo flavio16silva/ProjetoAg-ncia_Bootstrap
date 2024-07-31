@@ -104,7 +104,6 @@ let circleD = new ProgressBar.Circle(containerD, {
   }, 250)
 
   // Filtro do Portfolio
-
   $('.filter-btn').on('click', function(){
 
     let type = $(this).attr('id')
@@ -113,12 +112,12 @@ let circleD = new ProgressBar.Circle(containerD, {
     $('.main-btn').removeClass('active')
     $(this).addClass('active')
 
-    if(type == 'dsg-btn'){
-      eachBoxes('dsg', boxes)
-    } else if (type == 'dev-btn') {
-      eachBoxes('dev', boxes)
-    } else if (type == 'seo-btn') {
-      eachBoxes('seo', boxes)
+    if(type == 'cas-btn'){
+      eachBoxes('cas', boxes)
+    } else if (type == 'pol-btn') {
+      eachBoxes('pol', boxes)
+    } else if (type == 'sal-btn') {
+      eachBoxes('sal', boxes)
     } else {
       eachBoxes('all', boxes)
     }
