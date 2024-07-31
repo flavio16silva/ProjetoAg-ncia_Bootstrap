@@ -18,7 +18,8 @@ p, li {
 
 /* Barra de Navegação */
 header, .navbar {
-  background-color: #353D41;
+  background-color: #253139;
+  /* 253139, 353D41 */
 }
 
 #nav-container {
@@ -254,8 +255,6 @@ header, .navbar {
 }
 
 /* Portfolio */
-
-
 .project-box {
   margin-bottom: 30px;
 }
@@ -601,7 +600,7 @@ text-decoration: none;
 @media(min-width: 425px) and (max-width: 576px) {
   /* slider */
   #mainSlider {
-    margin-top: 90px;
+    margin-top: 80px;
   }
 
   #mainSlider .carousel-caption {
